@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 70%;
+  border: solid #ffd569 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+    border: solid #ffd569 30px;
+  }
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+}
+
+.images-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .images-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  color: #ffd569;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
